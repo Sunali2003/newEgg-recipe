@@ -3,52 +3,160 @@
 <head>
 <title>Egg Recipe</title>
 <style>
- body{background-color:beige;
-height:100%;
-width: 100vw;}
 
-.white{ background-color: white;
-width: 100%;
-height: 100%;
-max-width: 1280px;
-margin: 80px;
+ body
+
+ {
+   background-color: beige;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ }
+
+.white
+{
+   background-color: white;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    margin: 80px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+ .eggImg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+
+.image {
 border-radius: 20px;
-padding: 10px;
+  width: 100%;
 }
-.image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  padding: 10px;
-}
+
+
+
+
 h2{
   font-family:sans-serif;
-  font-size:small;
-}
-.lavender{
-        background-color:bisque;
-      width: 1200px;
-    height: 200px;
-  border-radius: 20px;
-margin-left: auto;
-margin-right: auto;}
+  font-size:1rem;
+  margin:0px;
+  width: 80%
 
+}
+
+.lavender{
+
+background-color:aliceblue;
+width: 1200px;
+height: 140px;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+
+h1
+
+{
+  font-size:4rem;
+  margin: 0px;
+}
+
+h3{
+  color: maroon;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: 0;
+
+}
+.li{line-height: 24px;
+}
+
+h4 {
+  font-size:30px ;
+color: maroon;}
+.eggs{padding-left: 100px;
+padding-right: 20px;
+}
+.egg-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.description {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
 
 </style>
 </head>
   <body>
 
+<!-- start main div 1 -->
 
-    <div class="white">
-    <img src="image-omelette.jpeg" alt="an omelette" class="image" height="200px";width="900px";
-    margin-left:auto; margin-right:auto";>
-<h1> Simple Omelette Recipe </h1>
-<h2>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</h2>
+<div class="main white">
+  <section class="eggimage-section">
+    <div class="egg-container">
+      <div class="eggImg">
+        <img src="image-omelette.jpeg" alt="an omelette" class="image">
 
-<div class="lavender">
+      </div>
+      <div class="description">
+        <h1> Simple Omelette Recipe </h1>
+        <h2>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</h2>
+
+      </div>
+
+    </div>
 
 
+  </section>
+
+
+
+<!-- end main div -->
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
