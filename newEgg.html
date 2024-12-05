@@ -20,7 +20,7 @@
     max-width: 1280px;
     margin: 80px;
     border-radius: 20px;
-    padding:
+    box-sizing: border-box;
 }
 
  .eggImg{
@@ -50,12 +50,11 @@
 }
 .lavender{
 background-color:lightpink;
-width: 1000px;
+width: 900px;
 height: 140px;
 border-radius: 20px;
-margin-left: auto;
 margin-right: auto;
-padding-left: 20px;
+padding-left: 51px;
 padding-right: 10px;
 padding-top: 30px;
 
@@ -125,17 +124,33 @@ font-weight: bold;
 }
 
 h4{
-  padding-left: 114px;
+  padding-left: 25px;
   color: brown;
   font-weight: bolder;
   margin: 0px;
   font-size: 30px;
 }
-.Ingredients{
-  padding-left: 95px;
+.ing ul {
+  padding-left: 37px;
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+
+}
+
+h5{
+	padding-left: 20px;
+	color: brown;
+	/* font\ weight: bolder; */
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px;
+}
+
 
 
 }
+
 
 
 </style>
@@ -173,22 +188,44 @@ h4{
           </p>
         </div>
         </div>
-      </div>
+
+        <div class="Ingredients">
+          <h4>Ingredients</h4>
+          <div class="ing">
+          <ul>
+             <li>2-3large eggs </li>
+             <li>Salt, to taste</li>
+             <li>Pepper,to taste</li>
+             <li>1 tablespoon of butter or oil</li>
+             <li>Optional fillings: cheese,diced vegetables,cooked meats,herbs</li>
+         </ul>
+       </div>
 
 
-<div class="ing">
-  <h4>Ingredients</h4>
-     <div class="Ingredients">
-        <ul>
-           <li>2-3large eggs </li>
-           <li>Salt, to taste</li>
-           <li>Pepper,to taste</li>
-           <li>1 tablespoon of butter or oil</li>
-           <li>Optional fillings: cheese,diced vegetables,cooked meats,herbs</li>
-       </ul>
-     </div>
-    </p>
+
+
+<div class="Instructions">
+     <h5>Instructions</h5>
+  <ol>
+     <li>Beat the eggs:In a bowl,beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a table spoonof water or milk for a fulffier texture.</li>
+     <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil .</li>
+     <li>Cook the omelette:Once the butter is melted bubbling,pour in the eggs.Tilt the pan to ensure the eggs evenly coat the surface. </li>
+     <li>Add fillings (optional):When the eggs begin to set at the edges but are still slightly runny in the middle,sprinkle your chosen filling over one half of the omelette.</li>
+     <li>Fold and serve:As the omelette continues to cook carefully lift one edge and fold it over the fillings . Let it cook for anoyher minute, then slide it onto a plate .</li>
+    <li>Enjoy:Serve hot ,with additional salt and pepper if needed.</li>
+  </ol>
 </div>
+
+
+<p> Nutrition</p>
+
+
+
+
+
+</div>
+
+
 
 
 
